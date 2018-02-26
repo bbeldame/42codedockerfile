@@ -1,6 +1,6 @@
 # Dockerfile for 42 school c projects
 
-#### :thumbsdown: This is not as close to the 42 dumps as I wanted, there is issues you can read at the end of this Readme. Please create issues or update this README with the issues you stumble upon while using the container. :point_down:
+#### :thumbsdown: This is not as close to the 42 dumps as I wanted, there are issues you can read at the end of this Readme. Please create issues or update this README with the issues you stumble upon while using the container. :point_down:
 
 ## :cd: Installation
 
@@ -31,7 +31,7 @@ docker run -ti -v c:\dev\42codedockerfile\work:/root/work 42codedockerfile zsh
 
 Not really an issue : compiler use more options on the -Werror flag, so your project may not compile before fixing some stuff.
 
-Command not found: ^M, currently working on this, if you have this problem, your file is in CRLF because of windows, and you need to update it to LF to make it readable by linux.
+`Command not found: ^M`, currently working on this, if you have this problem, your file is in CRLF because of windows, and you need to update it to LF to make it readable by linux.
 
 ## :hear_no_evil: Disclosure
 
